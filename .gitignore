@@ -1,3 +1,11 @@
 /target
 /.vscode
 Cargo.lock
+
+# Секреты и логи: не коммитим
+*.log
+.env
+.env.*
+*.pem
+*.pfx
+*.key
